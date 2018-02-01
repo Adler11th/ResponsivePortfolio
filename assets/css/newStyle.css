@@ -204,8 +204,11 @@ input[type=submit]:hover{
     input[type=text]{
         width: 100%;
     }
-    #textarea{
+    textarea{
         width: 100%;
+    }
+    imput[type=submit]{
+        font-size: 2rem;
     }
 }
 
