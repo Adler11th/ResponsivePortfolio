@@ -1,69 +1,68 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-	<title>Basic-Portfolio</title>
-	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>ResponsivePortfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/newStyle.css">
 </head>
+
 <body>
-	<header>
-		<div class="container">
-			<a href = "index.html" id = "logo"> Maxim G </a>
-			<nav>
-				<a href = "index.html">About</a> &verbar;
-				<a href = "portfolio.html">Portfolio</a> &verbar;
-				<a href = "contact.html">Contact</a>
-			</nav>
-		</div>	
-	</header>	
-
-
-	<div class="container">
-		<section>
-			<h1>Portfolio</h1>
-			<div class="text">
-				<div class="img_container_left">
-					<div class="text_img">
-						<img src="assets/images/dota2.png" alt="dota2" class="portfolio_img">
-						<h3>RPG Game</h3>
-					</div>
-					<div class="text_img">
-						<img src="assets/images/c&c.png" alt="C&C" class="portfolio_img">
-						<h3>Strtegy Game</h3>
-					</div>
-				</div>
-				<div class="img_container_right">
-					<div class="text_img">
-						<img src="assets/images/goh.png" alt="SW" class="portfolio_img">
-						<h3>Mobile Game</h3>
-					</div>
-					<div class="text_img">
-						<img src="assets/images/cs_go.png" alt="cs_go" class="portfolio_img">
-						<h3>Shooter Game</h3>
-					</div>
-				</div>
-			</div>
-		</section>
-
-		<aside>
-			<h2>Connect with Me:</h2>
-			<div class="cm_links">
-				<a href="http:/www.linkedin.com/in/maksym-galyliak-95464551" target="_blank">
-					<img src="assets/images/linkedin.png" alt="linkedin" class="link_img">
-				</a>
-				<a href="https://github.com/Adler11th" target="_blank">
-					<img src="assets/images/github.png" alt="github" class="link_img">
-				</a>
-				<a href="https://stackoverflow.com/users/7087529/adler11th" target="_blank">
-					<img src="assets/images/stackoverflow.png" alt="stackiverflow" class="link_img">
-				</a>
-			</div>
-		</aside>
-	</div>
-
-<footer>
-	<p> Copyright&copy; Maksym Galyliak</p>
-</footer>
-
+    <div class="wrapper">
+        <header id="header">
+            <a href="newIndex.html" id="logo">
+                <h1>MaxG</h1>
+            </a>
+            <nav>
+                <a href="newIndex.html" class="nav_item">About</a>
+                <a href="newPortfolio.html" class="nav_item">Portfolio</a>
+                <a href="newContact.html" class="nav_item">Contact</a>
+            </nav>
+        </header>
+        <main id="main">
+            <section id="section">
+                <h2>Portfolio</h2>
+                <div class="portfolio_grid">
+                <div class="img_text">
+                    <img src="assets/images/disciples3.png" alt="d3 img" class="porfolio_img">
+                    <h3>Strategy Game</h3>
+                </div>
+                <div class="img_text">
+                    <img src="assets/images/dota2.png" alt="dota img" class="porfolio_img">
+                    <h3>MOBA Game</h3>
+                </div>
+                <div class="img_text">
+                    <img src="assets/images/c&c.png" alt="c&c img" class="porfolio_img">
+                    <h3>Strategy Game</h3>
+                </div>
+                <div class="img_text">
+                    <img src="assets/images/goh.png" alt="goh img" class="porfolio_img">
+                    <h3>Mobile Game</h3>
+                </div>
+                </div>
+            </section>
+            <aside id="aside">
+                <h2>Connect with me</h2>
+                <div class="connect_links">
+                    <a href="#">
+                        <img src="assets/images/github.png" class="link_img">
+                    </a>
+                    <a href="#">
+                        <img src="assets/images/linkedin.png" class="link_img">
+                    </a>
+                    <a href="#">
+                        <img src="assets/images/stackoverflow.png" class="link_img">
+                    </a>
+                </div>
+            </aside>
+        </main>
+    </div>
+    <footer id="footer">
+        <p>Copyright&copy;MaksymGalyliak</p>
+    </footer>
 </body>
+
 </html>
