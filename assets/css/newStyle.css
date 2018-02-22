@@ -100,6 +100,7 @@ nav{
 }
 .porfolio_img{
     width: 80%;
+    border-radius: 5px;
     height: auto;
     margin: auto;
 }
