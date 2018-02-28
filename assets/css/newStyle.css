@@ -99,8 +99,9 @@ nav{
     margin-bottom: 5%;
 }
 .porfolio_img{
-    width: 80%;
+    width: 90%;
     border-radius: 5px;
+    border: 2px solid #4d4d4d;
     height: auto;
     margin: auto;
 }
@@ -220,7 +221,7 @@ input[type=submit]:hover{
         grid-column-gap: 2rem;
     }
     .profile_img{
-        width: 40%;
+        width: 35%;
     }
     #aside{
         max-height: 140px;
